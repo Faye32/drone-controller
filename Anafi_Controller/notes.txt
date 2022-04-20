@@ -1,0 +1,4 @@
+for command messageolympe.messages.ardrone3.Piloting.PCMD,
+the param timestampAndSeqNum can be safely set to 0 as per
+https://forum.developer.parrot.com/t/sending-pcmd-commands-in-a-fixed-frequency/9550
+

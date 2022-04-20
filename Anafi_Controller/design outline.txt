@@ -1,0 +1,14 @@
+if the quit command has been given, the drone should land if not already landed.
+
+telem data should be shown on the main window
+
+status data should be shown on the main window
+
+program should prompt user to connect to drone wifi
+
+program should warn user if disconnected
+
+program should have an intuitive UI
+
+settings should be intuitive
+
