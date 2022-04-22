@@ -2,3 +2,11 @@ for command messageolympe.messages.ardrone3.Piloting.PCMD,
 the param timestampAndSeqNum can be safely set to 0 as per
 https://forum.developer.parrot.com/t/sending-pcmd-commands-in-a-fixed-frequency/9550
 
+rtsp://192.168.42.1/live
+
+drift can be corrected by multiplying velocity by -1, then multiplying by a divisible of 10 for its precision, 
+and an adjuster value
+
+x and y are horizontal for some reason and are also fixed to a point, not the drone
+
+x relative can be found with x fixed * cos(theta)

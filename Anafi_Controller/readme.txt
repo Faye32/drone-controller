@@ -26,4 +26,6 @@ KEYBINDS:
 
     T               - takeoff/land
 
+    TAB             - toggle flight assist
+
     ESC             - open menu
